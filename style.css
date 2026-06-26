@@ -123,13 +123,6 @@ p {
     text-align: center;
 }
 
-#tiplinks {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 25% 0 25%;
-    font-size: large;
-}
-
 #collegetips h2 {
     font-size: 38px;
 }
@@ -147,4 +140,7 @@ p {
 
 footer{
     margin-top: 100px;
+}
+figcaption {
+    font-size:x-large;
 }
