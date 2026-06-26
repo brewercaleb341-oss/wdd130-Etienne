@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oranienbaum&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #396E94;
+    height: 140px;
+    color: #E7C24F;
+    padding: 0 40px;
+}
+
+#topnav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: x-large;
+    align-self: flex-end;
+    margin-bottom: 10px;
+
+}
+
+.hero {
+    position: relative;
+}
+
+#welcome {
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 25px;
+}
+
+#welcome h2 {
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+}
+
+#top {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: black;
+    height: 38px;
+    color: #E7C24F;
+    text-wrap: balance;
+    font-size: small;
+}
+
+#logo img {
+    width: 200px;
+    height: 150px;
+}
+
+.studentphoto img {
+    width: 1fr;
+    height: 500px;
+}
+
+#logo {
+    align-self: flex-start;
+    z-index: 10;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1B1B;
+    color: #E7C24F;
+}
+
+h1,
+h2 {
+    font-family: 'Lato';
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+#aboutme {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    align-items: start;
+    margin-left: 10px;
+    margin-top: 80px;
+    column-gap: 80px;
+
+}
+
+#aboutme img {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-top: 250px;
+    border-radius: 10px;
+}
+
+#aboutme p {
+    line-height: 1.5;
+
+}
+
+#aboutmetext {
+    background-color: #A42212;
+    border-radius: 15px;
+    font-size: 38px;
+    padding: 20px;
+}
+
+#collegetips {
+    text-align: center;
+}
+
+#tiplinks {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25% 0 25%;
+    font-size: large;
+}
+
+#collegetips h2 {
+    font-size: 38px;
+}
+#tipimgs{
+    display:flex;
+    justify-content:center;
+    margin: 0 25% 0 25%;
+    column-gap: 60px;
+}
+#tipimgs img {
+    width:300px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: 100px;
+}
