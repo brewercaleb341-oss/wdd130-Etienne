@@ -144,3 +144,14 @@ footer{
 figcaption {
     font-size:x-large;
 }
+#stips img {
+    width: 50vw;
+
+}
+ a {
+    text-decoration:none;
+    color: #E7C24F;
+}
+a:hover{
+color: #ac9243;
+}
