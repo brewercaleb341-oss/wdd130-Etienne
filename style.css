@@ -5,18 +5,21 @@ header {
     gap: 10px;
     align-items: center;
     background-color: #396E94;
-    height: 140px;
+    height: 80px;
     color: #E7C24F;
-    padding: 0 40px;
+    padding: 0 20px;
+
 }
 
 #topnav {
     display: flex;
     gap: 20px;
+    justify-content: space-between;
     align-items: center;
     font-size: x-large;
-    align-self: flex-end;
     margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
 
 }
 
@@ -44,16 +47,19 @@ header {
     display: flex;
     gap: 10px;
     align-items: center;
+    justify-content: center;
     background-color: black;
     height: 38px;
-    color: #E7C24F;
     text-wrap: balance;
     font-size: small;
+    text-align: center;
+
 }
 
 #logo img {
-    width: 200px;
-    height: 150px;
+    width: 130px;
+    height: 90px;
+    margin: 0 12px;
 }
 
 .studentphoto img {
@@ -126,32 +132,139 @@ p {
 #collegetips h2 {
     font-size: 38px;
 }
-#tipimgs{
-    display:flex;
-    justify-content:center;
+
+#tipimgs {
+    display: flex;
+    justify-content: center;
     margin: 0 25% 0 25%;
     column-gap: 60px;
 }
+
 #tipimgs img {
-    width:300px;
+    width: 300px;
     margin-bottom: 60px;
     border-radius: 10px;
 }
 
-footer{
-    margin-top: 100px;
+footer {
+    justify-content: center;
+    text-align:left;
 }
+
 figcaption {
-    font-size:x-large;
+    font-size: x-large;
 }
+
 #stips img {
     width: 50vw;
 
 }
- a {
-    text-decoration:none;
+
+a {
+    text-decoration: none;
     color: #E7C24F;
 }
-a:hover{
-color: #ac9243;
+
+a:hover {
+    color: #ac9243;
+}
+
+.card {
+    background-color: #A42212;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 20px;
+    width: 1fr;
+    height: 1fr;
+}
+
+#tips {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    column-gap: 20px;
+    place-items: center;
+}
+
+#stats {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    background-color: #396E94;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+
+}
+
+.stat {
+    border-radius: 15px;
+    gap: 20px;
+    flex: 1;
+    background-color: #1B1B1B;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    margin: 0;
+}
+
+details {
+    border-radius: 15px;
+    gap: 20px;
+    flex: 1;
+    background-color: #396E94;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-color: #E7C24F;
+    border-left: 2px solid #E7C24F;
+
+}
+
+#qapage {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    column-gap: 20px;
+    place-items: center;
+}
+#checklist {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    column-gap: 20px;
+    place-items: center;
+    padding: 20px;
+    background-color: #396E94;
+}
+
+.footers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:left;
+    justify-content: center;
+    background-color: #1B1B1B;
+    padding-top: 20px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#footerlinks {
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   font-size: 15px;
 }
