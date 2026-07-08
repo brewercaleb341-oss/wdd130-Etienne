@@ -20,6 +20,7 @@ header {
     margin-bottom: 10px;
     text-align: center;
     width: 100%;
+    padding: 40px;
 
 }
 
@@ -148,7 +149,7 @@ p {
 
 footer {
     justify-content: center;
-    text-align:left;
+    text-align: left;
 }
 
 figcaption {
@@ -240,6 +241,7 @@ details {
     column-gap: 20px;
     place-items: center;
 }
+
 #checklist {
     margin-top: 20px;
     display: grid;
@@ -255,7 +257,7 @@ details {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    align-items:left;
+    align-items: left;
     justify-content: center;
     background-color: #1B1B1B;
     padding-top: 20px;
@@ -264,7 +266,138 @@ details {
 }
 
 #footerlinks {
-   display:grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   font-size: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #aboutme {
+        column-gap: 40px;
+        padding: 0 20px;
+    }
+
+    .studentphoto img {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    #tipimgs figure {
+        margin: 0;
+    }
+
+    #tipimgs img {
+        width: 100%;
+        height: auto;
+        height: auto;
+
+    }
+
+    #tips,
+    #qapage,
+    #checklist {
+        gap: 20px;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width:768px) {
+
+    #top {
+        font-size: small;
+        padding: 10%;
+    }
+
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        gap: 15px;
+
+    }
+
+    #topnav {
+        flex-direction: column;
+        font-size: medium;
+        gap: 10px;
+    }
+
+    #logo {
+        align-self: center;
+    }
+
+    #welcome {
+        width: 90%;
+        padding: 10px;
+    }
+
+    #welcome h2 {
+        font-size: 1rem;
+    }
+
+    #aboutme {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    #aboutme img {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    #tipimgs {
+        width: 100%;
+        margin-bottom: 20px;
+        flex-direction: column;
+        margin: 0 !important;
+    }
+
+    #tipimgs figure {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #tipsimg img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+
+
+    }
+
+    #stats {
+        flex-direction: column;
+    }
+
+    #tips,
+    #qapage,
+    #checklist {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    details {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    #footerlinks {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .footers {
+        text-align: center;
+        align-items: center;
+    }
 }
