@@ -62,10 +62,14 @@ header {
     height: 90px;
     margin: 0 12px;
 }
-
+.studentphoto{
+ padding-right: 40px;
+ padding-bottom: 20px;
+}
 .studentphoto img {
     width: 100%;
     height: 500px;
+    object-fit: cover;
 }
 
 #logo {
