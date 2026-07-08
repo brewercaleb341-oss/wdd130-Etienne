@@ -176,7 +176,7 @@ a:hover {
     font-size: 20px;
     padding: 20px;
     width: 1fr;
-    height: 1fr;
+    height: 80%;
 }
 
 #tips {
@@ -184,8 +184,6 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    column-gap: 20px;
-    place-items: center;
 }
 
 #stats {
